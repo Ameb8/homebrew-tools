@@ -10,13 +10,14 @@ class Cpy < Formula
   depends_on "python@3.11"
 
   resource "pyperclip" do
+    
     url "https://files.pythonhosted.org/packages/source/p/pyperclip/pyperclip-1.9.0.tar.gz"
-    sha256 "89e170badc8c040cd2b833cb3a47f5a7179e45d011bba5e41f8b2fcd3328e48e"
+    sha256 "b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310"
   end
 
   resource "treelib" do
-    url "https://files.pythonhosted.org/packages/19/0f/8d40617667e7d325d33a3734fa56e27a2d8c30a3ea17625e6111cfc947aa/treelib-1.8.0.tar.gz"
-    sha256 "18339aa255965bba45b71e2b11e06f740fc7f2a510e4faef159e4c839bd4be7f"
+    url "https://files.pythonhosted.org/packages/source/t/treelib/treelib-1.8.0.tar.gz"
+    sha256 "e1be2c6b66ffbfae85079fc4c76fb4909946d01d915ee29ff6795de53aed5d55"
   end
 
   def install
