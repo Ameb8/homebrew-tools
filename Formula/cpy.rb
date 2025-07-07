@@ -9,8 +9,8 @@ class Cpy < Formula
 
   depends_on "python@3.11"
 
-    resource "pyperclip" do
-    url "https://files.pythonhosted.org/packages/ea/8c/8c1263c1e80b3d786b9ebc2219c6f0d2ff70b3b8b1d812f4bbd285e09121/pyperclip-1.9.0.tar.gz"
+  resource "pyperclip" do
+    url "https://files.pythonhosted.org/packages/source/p/pyperclip/pyperclip-1.9.0.tar.gz"
     sha256 "89e170badc8c040cd2b833cb3a47f5a7179e45d011bba5e41f8b2fcd3328e48e"
   end
 
