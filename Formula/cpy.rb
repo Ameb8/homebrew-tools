@@ -20,6 +20,12 @@ class Cpy < Formula
     sha256 "e1be2c6b66ffbfae85079fc4c76fb4909946d01d915ee29ff6795de53aed5d55"
   end
 
+  resource "six" do
+  url "https://files.pythonhosted.org/packages/source/s/six/six-1.16.0.tar.gz"
+  sha256 "1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"
+end
+
+
   def install
     virtualenv_install_with_resources
   end
