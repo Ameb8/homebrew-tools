@@ -10,8 +10,8 @@ class Cpy < Formula
   depends_on "python@3.11"
 
   resource "pyperclip" do
-    url "https://files.pythonhosted.org/packages/ea/5d/54e0df42141cefb819d9e84763c49fdb6fa4b3cc53a3cc2e4e5e1f6898d8/pyperclip-1.9.0.tar.gz"
-    sha256 "65d7c037fbc8c24c678badfd6fe0a4d9ff80c24fb25be1d0f02a53990c72b31b"
+    url "https://files.pythonhosted.org/packages/7b/b3/72a97940069e8fa1f73d1479c27be7fecc6f8db6c08db1266c89341a3b77/pyperclip-1.8.2.tar.gz"
+    sha256 "cb2cdd54e9ab02f4783bfa0f1c1d88fce95c63299fcf779de163be7d3a7b6f83"
   end
   
   resource "treelib" do
