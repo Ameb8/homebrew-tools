@@ -10,7 +10,7 @@ class Cpy < Formula
   depends_on "python@3.11"
 
   resource "pyperclip" do
-    url "https://files.pythonhosted.org/packages/7b/b3/72a97940069e8fa1f73d1479c27be7fecc6f8db6c08db1266c89341a3b77/pyperclip-1.8.2.tar.gz"
+    url "https://files.pythonhosted.org/packages/source/p/pyperclip/pyperclip-1.8.2.tar.gz"
     sha256 "cb2cdd54e9ab02f4783bfa0f1c1d88fce95c63299fcf779de163be7d3a7b6f83"
   end
   
