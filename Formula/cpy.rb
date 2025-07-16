@@ -10,18 +10,18 @@ class Cpy < Formula
   depends_on "python@3.11"
 
   resource "pyperclip" do
-    url "https://files.pythonhosted.org/packages/source/p/pyperclip/pyperclip-1.8.2.tar.gz"
-    sha256 "cb2cdd54e9ab02f4783bfa0f1c1d88fce95c63299fcf779de163be7d3a7b6f83"
+    url "https://files.pythonhosted.org/packages/30/23/2f0a3efc4d6a32f3b63cdff36cd398d9701d26cda58e3ab97ac79fb5e60d/pyperclip-1.9.0.tar.gz"
+    sha256 "b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310"
   end
   
   resource "treelib" do
-    url "https://files.pythonhosted.org/packages/46/7f/9335c1b48f5dc1dd8dd3d1e009ddf11ea55b9a24b9fc4d22d5cf7e547f2e/treelib-1.8.0.tar.gz"
-    sha256 "ab8ac5b2679fc7c1f740a1720e317c7d1d9a64824c0933eaaae3c49dcbb89b8e"
+    url "https://files.pythonhosted.org/packages/7a/31/145bdbee73d7ee4ac4e879c37faa196a32208b288ca4f308c1ad8db3f010/treelib-1.8.0.tar.gz"
+    sha256 "e1be2c6b66ffbfae85079fc4c76fb4909946d01d915ee29ff6795de53aed5d55"
   end
   
   resource "six" do
-    url "https://files.pythonhosted.org/packages/02/75/9284b89f7be4ba769ae8e4e50a1f30f84cb22b3ae391d0cc0491e13f2b69/six-1.16.0.tar.gz"
-    sha256 "1e61c37477a1626458e36f7b1d82aa5c0f5c6ac6f6cbee8520f546f3cb274518"
+    url "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz"
+    sha256 "ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"
   end
 
   def install
