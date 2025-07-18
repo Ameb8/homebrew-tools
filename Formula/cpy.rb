@@ -4,7 +4,7 @@ class Cpy < Formula
   desc "CLI tool for copying dynamic content to clipboard"
   homepage "https://github.com/Ameb8/cpy"
   url "https://github.com/Ameb8/cpy/releases/download/v1.1.1/cpy-1.1.1.tar.gz"
-  sha256 "bb78d69b9812880e078494a66fb1efa7fd18a4ba3f67e4a4496d28c7e83f7585"
+  sha256 "077c142104e66ef113dfa6e75c935c2ae9f17c1ed793f9b50d1f5d4c1ada5364"
   license "MIT"
 
   depends_on "python@3.11"
